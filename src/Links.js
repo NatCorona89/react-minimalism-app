@@ -6,6 +6,7 @@ const Links = () => {
       <a
         href="https://www.theminimalists.com/minimalism/"
         target="_blank"
+        rel="noreferrer"
         class="learn-more"
       >
         Learn more at @ theminimalists.com

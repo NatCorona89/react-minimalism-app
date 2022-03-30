@@ -13,6 +13,7 @@ function App() {
       <Minimalism />
       <Links />
       <Button />
+      <ButtonSearch />
       <Footer />
     </div>
   );

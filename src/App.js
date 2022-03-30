@@ -4,7 +4,6 @@ import Minimalism from "./Minimalism";
 import Links from "./Links";
 import Button from "./Button";
 import Footer from "./Footer";
-import ButtonSearch from "./ButtonSearch";
 
 function App() {
   return (

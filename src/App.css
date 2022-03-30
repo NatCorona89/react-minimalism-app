@@ -1,38 +1,88 @@
-.App {
+h1 {
   text-align: center;
+  color: black;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+  text-align: center;
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 20px em;
+  border-radius: 6px;
+  font-style: italic;
+}
+.fancyLine {
+  height: 6px;
+  -webkit-filter: blur(8px);
+  border-radius: 5px;
+  background: linear-gradient(to right, blue, hotpink);
+  background: linear-gradient(to left, blue, hotpink);
+}
+.fancyLine2 {
+  height: 6px;
+  -webkit-filter: blur(8px);
+  border-radius: 5px;
+  background: linear-gradient(to right, blue, hotpink);
+  background: linear-gradient(to left, blue, hotpink);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  border-radius: 10px;
+}
+p {
+  line-height: 1.5;
+  font-size: 20px;
+  margin: 40px 80px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button {
+  display: block;
+  margin: 20px auto;
+  background: linear-gradient(#aa9eec, #ecbfec);
+  color: black;
+  font-size: 18px;
+  padding: 15px 20px;
+  border: inset;
+  border-radius: 6px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: all 200ms ease-in-out;
+}
+button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+  background-color: rgb(172, 169, 169);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Header {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px 60px;
 }
 
-.App-link {
-  color: #61dafb;
+.learn-more {
+  color: (#9b79f7);
+  display: block;
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-left: 95px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.learn-more:hover {
+  text-decoration: underline;
+}
+.name {
+  color: #9b79f7;
+  text-decoration: underline;
+}
+
+.footer {
+  text-align: center;
+  font-size: 18px;
 }
